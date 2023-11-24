@@ -1,0 +1,122 @@
+.fundo {
+    background: #9a9a9a;
+}
+
+.fundo-header {
+    background: #767676;
+    height: 250px;
+    border: 1px solid #767676;
+    border-radius: 12px;
+}
+
+.imagem-header {
+    height: 250px;
+    width: 350px;
+    display: inline-block;
+    padding-left: 70px;
+    
+}
+
+.texto-header {
+    font-family: teko;
+    text-align: center;
+    font-size: 100px;
+    padding-left: 30px;
+    width: 1000px;
+    min-width: 500px;
+    padding-top: 30px;
+
+}
+
+.container {
+    display: flex;
+}
+
+@font-face {
+    font-family: teko;
+    src: url(../font/Teko-Regular.ttf);
+}
+
+.itens-navbar {
+    padding-left: 50px;
+    padding-right: 50px;
+    background: #bebebe;
+    
+    border: #2b2929 solid 2px;
+    border-radius: 2px;
+
+}
+
+.nav-item:hover {
+    background: #2b2929;
+    border: #2b2929 solid 2px;
+    border-radius: 7px;
+    transition: background 1.5s;
+}
+
+.img-thumbnail {
+    height: 200px;
+}
+
+.card {
+    border: #2b2929 solid 2px;
+    border-radius: 2px;
+}
+
+
+body {
+    font-family: teko;
+}
+
+.bloco-de-contatos {
+    text-align: center;
+    background-color: #bebebe;
+    
+}
+
+.bloco-de-contatos > ol {
+    list-style-type: none;
+}
+
+.texto-lista-ordenada {
+    font-size: larger;
+}
+
+.contato {
+    text-align: center;
+    width: 100%;
+    max-width: 500px ;
+    display: block;
+    
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1350px) {
+    .texto-header {
+        clear: both;
+      font-size: 50px;
+      font-family: teko;
+      min-width: 70px;
+    }
+
+    .imagem-header {
+        clear: both;
+        width: 200px;
+        height: 100px;
+        min-height: 100px;
+        margin-top: 80px;
+        
+    }
+
+  }
